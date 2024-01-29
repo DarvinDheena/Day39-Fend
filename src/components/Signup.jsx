@@ -13,6 +13,7 @@ function Signup({ users , getAllUsers }) {
   const [password,setPassword] = useState('');
 
   const handleBtnClick = async (event) => {
+    console.log('btn clicked')
     event.preventDefault();
     try {
       const newUser = {

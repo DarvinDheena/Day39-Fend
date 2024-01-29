@@ -6,6 +6,7 @@ import axios from 'axios'
 import config from './config'
 import Resetpage from './components/Resetpage'
 import ForgotPage from './components/ForgotPage'
+import './main.css'
 
 function App() {
   const [users,setUsers] = useState([]);
@@ -23,7 +24,7 @@ function App() {
 
   
   return (
-    <div className='container'>
+    <div className='flex-container'>
       <BrowserRouter>
         <Link></Link>
 
